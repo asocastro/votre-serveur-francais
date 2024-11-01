@@ -228,7 +228,7 @@ elif options == "Order Now":
         submit_button = st.button("Place Order")
 
     if submit_button and user_input:
-        with st.spinner("Jean-Luc is processing your order..."):
+        with st.spinner("Jean-Luc is processing what you said..."):
             try:
                 # OpenAI-based response
                 System_Prompt = """
@@ -325,7 +325,7 @@ elif options == "Order Now":
                 response = chat.choices[0].message.content
                 struct.append({"role": "assistant", "content": response})
 
-                st.success("Jean-Luc is processing what you said...")
+                st.success("Jean-Luc is responding!")
                 
                 st.markdown(f"""
                 <div style="
