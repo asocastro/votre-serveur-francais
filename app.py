@@ -324,7 +324,7 @@ elif options == "Order Now":
                 response = chat.choices[0].message.content
                 struct.append({"role": "assistant", "content": response})
 
-                st.success("Jean-Luc has received your order!")
+                st.success("Jean-Luc is processing what you said...")
                 
                 st.markdown(f"""
                 <div style="
@@ -333,7 +333,7 @@ elif options == "Order Now":
                     border-radius: 10px;
                     margin: 20px 0;
                     font-family: 'Playfair Display', serif;
-                    font-size: 18px;
+                    font-size: 20px;
                     line-height: 1.6;
                 ">
                 {response}
