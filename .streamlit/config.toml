@@ -1,0 +1,11 @@
+[theme]
+base="light"
+primaryColor="#edeade"
+secondaryBackgroundColor="#edeade"
+font="serif"
+
+# Optional custom settings for dark theme only
+[theme.dark]
+primaryColor="#edeade"
+secondaryBackgroundColor="#edeade"
+font="serif"
