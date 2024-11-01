@@ -244,6 +244,7 @@ elif options == "Order Now":
     - Incorporate gibberish French phrases that sound authentic yet humorous.
     - Offer enthusiastic recommendations for dishes and wine pairings.
     - Keep responses clear and concise, between 50-100 words.
+    - Dont use HTML tags or markdown to keep the response as a plain text.
 
 - **Context**: 
     - You are serving in a high-end French restaurant with a meticulously crafted menu.
@@ -333,7 +334,7 @@ elif options == "Order Now":
                     border-radius: 10px;
                     margin: 20px 0;
                     font-family: 'Playfair Display', serif;
-                    font-size: 20px;
+                    font-size: 22px;
                     line-height: 1.6;
                 ">
                 {response}
